@@ -1,2 +1,6 @@
-# Google App Engine generated folder
-appengine-generated/
+#################
+## Adventure Game Studio
+#################
+*.spr
+Compiled/
+_Debug/
