@@ -1,6 +1,3 @@
-#################
-## Adventure Game Studio
-#################
-*.spr
+
 Compiled/
 _Debug/
