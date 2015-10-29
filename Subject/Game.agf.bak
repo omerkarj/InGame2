@@ -1686,6 +1686,42 @@
               <Event Index="4" />
             </Interactions>
           </InventoryItem>
+          <InventoryItem>
+            <ID>3</ID>
+            <HotspotX>22</HotspotX>
+            <HotspotY>19</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>10</CursorImage>
+            <Image>10</Image>
+            <Description xml:space="preserve">Fuel Container</Description>
+            <Name>iFuelContainer</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>4</ID>
+            <HotspotX>10</HotspotX>
+            <HotspotY>5</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>0</CursorImage>
+            <Image>13</Image>
+            <Description xml:space="preserve">Talking Submarine Fuel</Description>
+            <Name>iTalkingSubFuel</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
         </InventoryItems>
       </InventoryItemFolder>
     </InventoryItems>
@@ -1907,8 +1943,8 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>2</StartingRoom>
-            <StartX>154</StartX>
-            <StartY>489</StartY>
+            <StartX>166</StartX>
+            <StartY>511</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -1927,10 +1963,10 @@
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
             <Properties />
             <Interactions>
-              <Event Index="0" />
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
+              <Event Index="0">cSal_Look</Event>
+              <Event Index="1">cSal_Interact</Event>
+              <Event Index="2">cSal_Talk</Event>
+              <Event Index="3">cSal_UseInv</Event>
               <Event Index="4" />
               <Event Index="5" />
               <Event Index="6" />
@@ -2518,6 +2554,31 @@ stop]]></Script>
               </Sprite>
             </Sprites>
           </SpriteFolder>
+          <SpriteFolder Name="Room2 Misc">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="10" Width="40" Height="40" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Projects\games\Subject\Subject\Assets\Objects\fuel_container.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="12" Width="197" Height="48" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Projects\games\Subject\Subject\Assets\Objects\tattoo.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="11" Width="58" Height="90" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Projects\games\Subject\Subject\Assets\Objects\disposal.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="13" Width="30" Height="48" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Projects\games\Subject\Subject\Assets\Objects\super-fuel.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="10" Height="6" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
@@ -2955,8 +3016,8 @@ See KeyboardMovement.txt for details.
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <TypeID>1</TypeID>
         <Name xml:space="preserve">Ambient Sound</Name>
+        <TypeID>1</TypeID>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
