@@ -71,7 +71,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName>Subject</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>0</AudioIndexer>
+      <AudioIndexer>6</AudioIndexer>
     </Settings>
     <LipSync>
       <Type>None</Type>
@@ -690,7 +690,7 @@
                 <Height>55</Height>
                 <Locked>False</Locked>
                 <Width>66</Width>
-                <Left>880</Left>
+                <Left>883</Left>
                 <Top>3</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
@@ -700,9 +700,9 @@
                 <ItemWidth>60</ItemWidth>
                 <ItemHeight>60</ItemHeight>
                 <CharacterID>-1</CharacterID>
-                <Height>53</Height>
+                <Height>54</Height>
                 <Locked>False</Locked>
-                <Width>764</Width>
+                <Width>483</Width>
                 <Left>77</Left>
                 <Top>3</Top>
                 <ZOrder>2</ZOrder>
@@ -730,6 +730,20 @@
                 <ID>3</ID>
                 <Name>setExamine</Name>
               </GUIButton>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <Text />
+                <Height>30</Height>
+                <Locked>True</Locked>
+                <Width>290</Width>
+                <Left>580</Left>
+                <Top>21</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name>InvDescription</Name>
+              </GUILabel>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -1120,7 +1134,7 @@
             <Name>iFuelContainer</Name>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">iFuelContainer_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
@@ -1138,7 +1152,7 @@
             <Name>iTalkingSubFuel</Name>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">iTalkingSubFuel_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
@@ -1156,7 +1170,7 @@
             <Name>iBedspring</Name>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">iBedspring_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
@@ -1174,7 +1188,7 @@
             <Name>iFlashlight</Name>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">iFlashlight_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
@@ -1382,9 +1396,9 @@
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
             <Properties />
             <Interactions>
-              <Event Index="0">cEgo_Look</Event>
-              <Event Index="1">cEgo_Interact</Event>
-              <Event Index="2">cEgo_Talk</Event>
+              <Event Index="0">cMick_Look</Event>
+              <Event Index="1">cMick_Interact</Event>
+              <Event Index="2">cMick_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -1936,6 +1950,11 @@ stop]]></Script>
           <Type>int</Type>
           <DefaultValue>0</DefaultValue>
         </GlobalVariable>
+        <GlobalVariable>
+          <Name>inventoryLabelCounter</Name>
+          <Type>int</Type>
+          <DefaultValue>0</DefaultValue>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
@@ -2133,7 +2152,7 @@ stop]]></Script>
                     <Image>2003</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
-                    <Sound>0</Sound>
+                    <Sound>3</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>4</ID>
@@ -2161,7 +2180,7 @@ stop]]></Script>
                     <Image>2007</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
-                    <Sound>0</Sound>
+                    <Sound>3</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>8</ID>
@@ -2202,7 +2221,7 @@ stop]]></Script>
                     <Image>2012</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
-                    <Sound>0</Sound>
+                    <Sound>3</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>3</ID>
@@ -2230,7 +2249,7 @@ stop]]></Script>
                     <Image>2016</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
-                    <Sound>0</Sound>
+                    <Sound>3</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>7</ID>
@@ -2285,7 +2304,7 @@ stop]]></Script>
                     <Image>2023</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
-                    <Sound>0</Sound>
+                    <Sound>3</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>4</ID>
@@ -2313,7 +2332,7 @@ stop]]></Script>
                     <Image>2027</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
-                    <Sound>0</Sound>
+                    <Sound>3</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>8</ID>
@@ -2354,7 +2373,7 @@ stop]]></Script>
                     <Image>2032</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
-                    <Sound>0</Sound>
+                    <Sound>3</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>3</ID>
@@ -2382,7 +2401,7 @@ stop]]></Script>
                     <Image>2036</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
-                    <Sound>0</Sound>
+                    <Sound>3</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>7</ID>
@@ -2490,9 +2509,22 @@ See KeyboardMovement.txt for details.
         <SubFolders>
           <AudioClipFolder Name="Music">
             <SubFolders />
-            <AudioClips />
+            <AudioClips>
+              <AudioClip>
+                <ScriptName>bgAudio</ScriptName>
+                <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\BG Music\Trigg_Gusset-The_Vault.mp3</SourceFileName>
+                <Index>2</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2015-11-10 17:30:57Z</FileLastModifiedDate>
+              </AudioClip>
+            </AudioClips>
             <AudioClipFolder>
-              <DefaultVolume>100</DefaultVolume>
+              <DefaultVolume>70</DefaultVolume>
               <DefaultPriority>Inherit</DefaultPriority>
               <DefaultRepeat>True</DefaultRepeat>
               <DefaultBundlingType>InSeparateVOX</DefaultBundlingType>
@@ -2501,7 +2533,56 @@ See KeyboardMovement.txt for details.
           </AudioClipFolder>
           <AudioClipFolder Name="Sounds">
             <SubFolders />
-            <AudioClips />
+            <AudioClips>
+              <AudioClip>
+                <ScriptName>aFootstep</ScriptName>
+                <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\footstep.mp3</SourceFileName>
+                <Index>3</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>10</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2015-11-10 18:02:14Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aDoor_open</ScriptName>
+                <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\door_open.mp3</SourceFileName>
+                <Index>4</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2015-11-10 18:17:46Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aDoor_locked</ScriptName>
+                <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\door_locked.mp3</SourceFileName>
+                <Index>5</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2015-11-10 18:19:20Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aPick_lock</ScriptName>
+                <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\pick_lock.mp3</SourceFileName>
+                <Index>6</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2015-11-10 18:23:25Z</FileLastModifiedDate>
+              </AudioClip>
+            </AudioClips>
             <AudioClipFolder>
               <DefaultVolume>100</DefaultVolume>
               <DefaultPriority>Inherit</DefaultPriority>
