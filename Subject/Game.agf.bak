@@ -628,6 +628,10 @@
             <Number>5</Number>
             <Description xml:space="preserve">Hidden Control Room</Description>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>301</Number>
+            <Description xml:space="preserve">Main Menu</Description>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -654,6 +658,90 @@
               <Name>gStatusline</Name>
             </NormalGUI>
             <Controls />
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick>gGui1_OnClick</OnClick>
+              <Height>768</Height>
+              <Width>400</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>2</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>17</BackgroundImage>
+              <ID>7</ID>
+              <Name>gDrawer</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>btnDictionary_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>18</Image>
+                <Text />
+                <Height>124</Height>
+                <Locked>False</Locked>
+                <Width>104</Width>
+                <Left>71</Left>
+                <Top>52</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>btnDictionary</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>btnExitDrawer_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Back</Text>
+                <Height>65</Height>
+                <Locked>False</Locked>
+                <Width>85</Width>
+                <Left>301</Left>
+                <Top>581</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>btnExitDrawer</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>btnMagGlass_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>20</Image>
+                <Text />
+                <Height>68</Height>
+                <Locked>False</Locked>
+                <Width>55</Width>
+                <Left>233</Left>
+                <Top>361</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>btnMagGlass</Name>
+              </GUIButton>
+            </Controls>
           </GUIMain>
           <GUIMain>
             <NormalGUI>
@@ -1645,90 +1733,6 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick>gGui1_OnClick</OnClick>
-              <Height>768</Height>
-              <Width>400</Width>
-              <Left>0</Left>
-              <Top>0</Top>
-              <Clickable>True</Clickable>
-              <Visibility>NormalButInitiallyOff</Visibility>
-              <PopupYPos>0</PopupYPos>
-              <ZOrder>0</ZOrder>
-              <BorderColor>2</BorderColor>
-              <Transparency>0</Transparency>
-              <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>17</BackgroundImage>
-              <ID>7</ID>
-              <Name>gDrawer</Name>
-            </NormalGUI>
-            <Controls>
-              <GUIButton>
-                <OnClick>btnDictionary_OnClick</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>18</Image>
-                <Text />
-                <Height>124</Height>
-                <Locked>False</Locked>
-                <Width>104</Width>
-                <Left>71</Left>
-                <Top>52</Top>
-                <ZOrder>0</ZOrder>
-                <ID>0</ID>
-                <Name>btnDictionary</Name>
-              </GUIButton>
-              <GUIButton>
-                <OnClick>btnExitDrawer_OnClick</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>Centred</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
-                <Text>Back</Text>
-                <Height>65</Height>
-                <Locked>False</Locked>
-                <Width>85</Width>
-                <Left>301</Left>
-                <Top>581</Top>
-                <ZOrder>1</ZOrder>
-                <ID>1</ID>
-                <Name>btnExitDrawer</Name>
-              </GUIButton>
-              <GUIButton>
-                <OnClick>btnMagGlass_OnClick</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>20</Image>
-                <Text />
-                <Height>68</Height>
-                <Locked>False</Locked>
-                <Width>55</Width>
-                <Left>233</Left>
-                <Top>361</Top>
-                <ZOrder>2</ZOrder>
-                <ID>2</ID>
-                <Name>btnMagGlass</Name>
-              </GUIButton>
-            </Controls>
-          </GUIMain>
-          <GUIMain>
-            <NormalGUI>
               <OnClick />
               <Height>400</Height>
               <Width>600</Width>
@@ -1915,6 +1919,244 @@
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>btnExitCompScreen</Name>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>500</Height>
+              <Width>700</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>3</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>11</ID>
+              <Name>gInstructions</Name>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>2</Font>
+                <Text xml:space="preserve">Subject - Game Instructions</Text>
+                <Height>51</Height>
+                <Locked>False</Locked>
+                <Width>631</Width>
+                <Left>11</Left>
+                <Top>14</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>Label6</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Help Mick find out why he was locked up in a mysterious compound, and escape!</Text>
+                <Height>50</Height>
+                <Locked>False</Locked>
+                <Width>644</Width>
+                <Left>14</Left>
+                <Top>52</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>Label7</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Use the left mouse button to move Mick around, observe and interact with objects in the room.</Text>
+                <Height>72</Height>
+                <Locked>False</Locked>
+                <Width>653</Width>
+                <Left>14</Left>
+                <Top>123</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>Label8</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Use the right mouse button to switch between mouse modes. The different mouse modes are:</Text>
+                <Height>79</Height>
+                <Locked>False</Locked>
+                <Width>663</Width>
+                <Left>11</Left>
+                <Top>208</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name>Label9</Name>
+              </GUILabel>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>2054</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>32</Width>
+                <Left>116</Left>
+                <Top>293</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name>Button1</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>2056</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>32</Width>
+                <Left>250</Left>
+                <Top>293</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name>Button2</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>2057</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>32</Width>
+                <Left>428</Left>
+                <Top>293</Top>
+                <ZOrder>6</ZOrder>
+                <ID>6</ID>
+                <Name>Button3</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>2061</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>34</Height>
+                <Locked>False</Locked>
+                <Width>32</Width>
+                <Left>593</Left>
+                <Top>293</Top>
+                <ZOrder>7</ZOrder>
+                <ID>7</ID>
+                <Name>Button4</Name>
+              </GUIButton>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Walk To</Text>
+                <Height>31</Height>
+                <Locked>False</Locked>
+                <Width>92</Width>
+                <Left>83</Left>
+                <Top>332</Top>
+                <ZOrder>8</ZOrder>
+                <ID>8</ID>
+                <Name>Label10</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Look At</Text>
+                <Height>28</Height>
+                <Locked>False</Locked>
+                <Width>92</Width>
+                <Left>228</Left>
+                <Top>328</Top>
+                <ZOrder>9</ZOrder>
+                <ID>9</ID>
+                <Name>Label11</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Interact With</Text>
+                <Height>25</Height>
+                <Locked>False</Locked>
+                <Width>143</Width>
+                <Left>377</Left>
+                <Top>328</Top>
+                <ZOrder>10</ZOrder>
+                <ID>10</ID>
+                <Name>Label12</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Menu Cursor</Text>
+                <Height>21</Height>
+                <Locked>False</Locked>
+                <Width>140</Width>
+                <Left>548</Left>
+                <Top>328</Top>
+                <ZOrder>11</ZOrder>
+                <ID>11</ID>
+                <Name>Label13</Name>
+              </GUILabel>
+              <GUIButton>
+                <OnClick>btnExitInstructions_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text xml:space="preserve">Main Menu</Text>
+                <Height>71</Height>
+                <Locked>False</Locked>
+                <Width>197</Width>
+                <Left>484</Left>
+                <Top>401</Top>
+                <ZOrder>12</ZOrder>
+                <ID>12</ID>
+                <Name>btnExitInstructions</Name>
               </GUIButton>
             </Controls>
           </GUIMain>
@@ -2213,7 +2455,7 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>1</StartingRoom>
+            <StartingRoom>301</StartingRoom>
             <StartX>885</StartX>
             <StartY>714</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
