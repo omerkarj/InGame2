@@ -1376,8 +1376,8 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>1</StartingRoom>
-            <StartX>121</StartX>
-            <StartY>728</StartY>
+            <StartX>676</StartX>
+            <StartY>653</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>5</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
@@ -1416,8 +1416,8 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>2</StartingRoom>
-            <StartX>165</StartX>
-            <StartY>507</StartY>
+            <StartX>608</StartX>
+            <StartY>482</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -2511,8 +2511,8 @@ See KeyboardMovement.txt for details.
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <ScriptName>bgAudio</ScriptName>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\BG Music\Trigg_Gusset-The_Vault.mp3</SourceFileName>
+                <ScriptName>bgAudio</ScriptName>
                 <Index>2</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -2520,7 +2520,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-10 17:30:57Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-10 21:30:57Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
@@ -2535,8 +2535,8 @@ See KeyboardMovement.txt for details.
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <ScriptName>aFootstep</ScriptName>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\footstep.mp3</SourceFileName>
+                <ScriptName>aFootstep</ScriptName>
                 <Index>3</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -2544,11 +2544,11 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>10</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-10 18:02:14Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-10 22:02:14Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aDoor_open</ScriptName>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\door_open.mp3</SourceFileName>
+                <ScriptName>aDoor_open</ScriptName>
                 <Index>4</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -2556,11 +2556,11 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-10 18:17:46Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-10 22:17:46Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aDoor_locked</ScriptName>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\door_locked.mp3</SourceFileName>
+                <ScriptName>aDoor_locked</ScriptName>
                 <Index>5</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -2568,11 +2568,11 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-10 18:19:20Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-10 22:19:20Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aPick_lock</ScriptName>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\pick_lock.mp3</SourceFileName>
+                <ScriptName>aPick_lock</ScriptName>
                 <Index>6</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -2580,7 +2580,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-10 18:23:25Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-10 22:23:25Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
