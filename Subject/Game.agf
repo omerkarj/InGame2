@@ -647,7 +647,7 @@
               <Left>0</Left>
               <Top>0</Top>
               <Clickable>True</Clickable>
-              <Visibility>Normal</Visibility>
+              <Visibility>NormalButInitiallyOff</Visibility>
               <PopupYPos>13</PopupYPos>
               <ZOrder>1</ZOrder>
               <BorderColor>1</BorderColor>
@@ -764,7 +764,7 @@
               <BorderColor>2</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
+              <BackgroundImage>89</BackgroundImage>
               <ID>1</ID>
               <Name>gPanel</Name>
             </NormalGUI>
@@ -779,13 +779,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>90</Image>
                 <Text>RESUME</Text>
-                <Height>66</Height>
+                <Height>65</Height>
                 <Locked>False</Locked>
-                <Width>224</Width>
-                <Left>10</Left>
-                <Top>89</Top>
+                <Width>123</Width>
+                <Left>96</Left>
+                <Top>114</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>btnResume</Name>
@@ -800,13 +800,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>90</Image>
                 <Text>ABOUT</Text>
-                <Height>66</Height>
+                <Height>65</Height>
                 <Locked>False</Locked>
-                <Width>224</Width>
-                <Left>10</Left>
-                <Top>239</Top>
+                <Width>123</Width>
+                <Left>96</Left>
+                <Top>192</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>btnAbout</Name>
@@ -821,13 +821,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>90</Image>
                 <Text xml:space="preserve">QUIT GAME</Text>
-                <Height>66</Height>
+                <Height>65</Height>
                 <Locked>False</Locked>
-                <Width>224</Width>
-                <Left>10</Left>
-                <Top>430</Top>
+                <Width>123</Width>
+                <Left>96</Left>
+                <Top>353</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>btnQuit</Name>
@@ -842,9 +842,9 @@
                 <Value>100</Value>
                 <Height>35</Height>
                 <Locked>False</Locked>
-                <Width>320</Width>
-                <Left>254</Left>
-                <Top>162</Top>
+                <Width>250</Width>
+                <Left>230</Left>
+                <Top>322</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>sldAudio</Name>
@@ -859,13 +859,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>90</Image>
                 <Text>Default</Text>
-                <Height>66</Height>
+                <Height>65</Height>
                 <Locked>False</Locked>
-                <Width>224</Width>
-                <Left>311</Left>
-                <Top>369</Top>
+                <Width>123</Width>
+                <Left>301</Left>
+                <Top>437</Top>
                 <ZOrder>4</ZOrder>
                 <ID>4</ID>
                 <Name>btnDefault</Name>
@@ -878,8 +878,8 @@
                 <Height>35</Height>
                 <Locked>False</Locked>
                 <Width>308</Width>
-                <Left>263</Left>
-                <Top>109</Top>
+                <Left>146</Left>
+                <Top>302</Top>
                 <ZOrder>5</ZOrder>
                 <ID>5</ID>
                 <Name>Label1</Name>
@@ -894,9 +894,9 @@
                 <Value>40</Value>
                 <Height>35</Height>
                 <Locked>False</Locked>
-                <Width>320</Width>
-                <Left>254</Left>
-                <Top>288</Top>
+                <Width>250</Width>
+                <Left>230</Left>
+                <Top>395</Top>
                 <ZOrder>6</ZOrder>
                 <ID>6</ID>
                 <Name>sldSpeed</Name>
@@ -909,8 +909,8 @@
                 <Height>35</Height>
                 <Locked>False</Locked>
                 <Width>99</Width>
-                <Left>383</Left>
-                <Top>240</Top>
+                <Left>230</Left>
+                <Top>370</Top>
                 <ZOrder>7</ZOrder>
                 <ID>7</ID>
                 <Name>Label2</Name>
@@ -925,13 +925,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>90</Image>
                 <Text>RESTART</Text>
-                <Height>66</Height>
+                <Height>65</Height>
                 <Locked>False</Locked>
-                <Width>224</Width>
-                <Left>10</Left>
-                <Top>334</Top>
+                <Width>123</Width>
+                <Left>96</Left>
+                <Top>270</Top>
                 <ZOrder>8</ZOrder>
                 <ID>8</ID>
                 <Name>btnRestart</Name>
@@ -1018,8 +1018,8 @@
           <GUIMain>
             <NormalGUI>
               <OnClick>gCursorSelect_OnCli</OnClick>
-              <Height>120</Height>
-              <Width>110</Width>
+              <Height>170</Height>
+              <Width>160</Width>
               <Left>0</Left>
               <Top>0</Top>
               <Clickable>True</Clickable>
@@ -1044,13 +1044,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2054</Image>
+                <Image>85</Image>
                 <Text />
-                <Height>32</Height>
+                <Height>55</Height>
                 <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>3</Left>
-                <Top>40</Top>
+                <Width>43</Width>
+                <Left>2</Left>
+                <Top>55</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>setWalk</Name>
@@ -1065,13 +1065,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2056</Image>
+                <Image>87</Image>
                 <Text />
-                <Height>32</Height>
+                <Height>20</Height>
                 <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>80</Left>
-                <Top>40</Top>
+                <Width>55</Width>
+                <Left>98</Left>
+                <Top>74</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>setLook</Name>
@@ -1086,12 +1086,12 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2057</Image>
+                <Image>86</Image>
                 <Text />
-                <Height>32</Height>
+                <Height>55</Height>
                 <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>42</Left>
+                <Width>53</Width>
+                <Left>51</Left>
                 <Top>3</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
@@ -1107,13 +1107,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2058</Image>
+                <Image>88</Image>
                 <Text />
-                <Height>32</Height>
+                <Height>55</Height>
                 <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>42</Left>
-                <Top>82</Top>
+                <Width>47</Width>
+                <Left>51</Left>
+                <Top>109</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>setTalk</Name>
@@ -1726,7 +1726,7 @@
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>11154</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -1766,7 +1766,7 @@
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>5</AnimationDelay>
             <SpeechAnimationDelay>2</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>16904</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -1895,10 +1895,10 @@ stop
     <Cursors>
       <MouseCursor>
         <ID>0</ID>
-        <HotspotX>6</HotspotX>
-        <HotspotY>15</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>2054</Image>
+        <Image>85</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -1907,10 +1907,10 @@ stop
       </MouseCursor>
       <MouseCursor>
         <ID>1</ID>
-        <HotspotX>8</HotspotX>
-        <HotspotY>8</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>2056</Image>
+        <Image>87</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -1919,10 +1919,10 @@ stop
       </MouseCursor>
       <MouseCursor>
         <ID>2</ID>
-        <HotspotX>8</HotspotX>
-        <HotspotY>8</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>2057</Image>
+        <Image>86</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -1931,10 +1931,10 @@ stop
       </MouseCursor>
       <MouseCursor>
         <ID>3</ID>
-        <HotspotX>8</HotspotX>
-        <HotspotY>8</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>2058</Image>
+        <Image>88</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2038,6 +2038,14 @@ stop
         <OutlineFont>0</OutlineFont>
         <OutlineStyle>None</OutlineStyle>
         <SourceFilename />
+      </Font>
+      <Font>
+        <ID>3</ID>
+        <PointSize>11</PointSize>
+        <Name>SpeechAct</Name>
+        <OutlineFont>0</OutlineFont>
+        <OutlineStyle>Automatic</OutlineStyle>
+        <SourceFilename>C:\Yoav\School\InGame\Subject\Subject\Assets\Fonts\KOMIKAP_.ttf</SourceFilename>
       </Font>
     </Fonts>
     <Palette>
@@ -2670,6 +2678,133 @@ stop
                   <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Characters\micku10.png</FileName>
                 </Source>
               </Sprite>
+              <Sprite Slot="65" Width="91" Height="173" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Characters\mickl1.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="66" Width="91" Height="173" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Characters\mickl2.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="67" Width="91" Height="173" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Characters\mickl3.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="68" Width="91" Height="173" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Characters\mickl4.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="69" Width="91" Height="173" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Characters\mickl5.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="70" Width="91" Height="173" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Characters\mickl6.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="71" Width="91" Height="173" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Characters\mickl7.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="72" Width="91" Height="173" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Characters\mickl8.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="73" Width="91" Height="173" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Characters\mickl9.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="74" Width="91" Height="173" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Characters\mickl10.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="75" Width="88" Height="173" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Characters\mickr1.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="76" Width="91" Height="173" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Characters\mickr2.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="77" Width="91" Height="173" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Characters\mickr3.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="78" Width="91" Height="173" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Characters\mickr4.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="79" Width="91" Height="173" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Characters\mickr5.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="80" Width="91" Height="173" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Characters\mickr6.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="81" Width="91" Height="173" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Characters\mickr7.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="82" Width="91" Height="173" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Characters\mickr8.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="83" Width="91" Height="173" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Characters\mickr9.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="84" Width="91" Height="173" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Characters\mickr10.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="Misc stuff">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="85" Width="43" Height="55" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
+              <Sprite Slot="86" Width="53" Height="55" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Misc\interactwith.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="87" Width="55" Height="20" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Misc\lookat.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="88" Width="47" Height="55" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Misc\talkto.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="89" Width="599" Height="588" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Misc\menu.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="90" Width="123" Height="65" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
             </Sprites>
           </SpriteFolder>
         </SubFolders>
@@ -3348,7 +3483,70 @@ stop
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>45</Image>
+                    <Image>65</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>66</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>67</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>68</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>69</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>70</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>71</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>7</ID>
+                    <Image>72</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>8</ID>
+                    <Image>73</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>9</ID>
+                    <Image>74</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -3361,7 +3559,63 @@ stop
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>45</Image>
+                    <Image>75</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>76</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>78</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>79</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>80</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>81</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>82</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>7</ID>
+                    <Image>83</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>8</ID>
+                    <Image>84</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -3527,7 +3781,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-11 05:30:57Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-11 07:30:57Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
@@ -3551,7 +3805,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>10</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-11 06:02:14Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-11 08:02:14Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\door_open.mp3</SourceFileName>
@@ -3563,7 +3817,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-11 06:17:46Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-11 08:17:46Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\door_locked.mp3</SourceFileName>
@@ -3575,7 +3829,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-11 06:19:20Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-11 08:19:20Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\pick_lock.mp3</SourceFileName>
@@ -3587,7 +3841,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-11 06:23:25Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-11 08:23:25Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
