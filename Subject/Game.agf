@@ -1797,9 +1797,9 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>-1</StartingRoom>
-            <StartX>160</StartX>
-            <StartY>120</StartY>
+            <StartingRoom>4</StartingRoom>
+            <StartX>403</StartX>
+            <StartY>274</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -2807,6 +2807,12 @@ stop
               <Sprite Slot="90" Width="123" Height="65" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
             </Sprites>
           </SpriteFolder>
+          <SpriteFolder Name="Room4 Misc">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="91" Width="116" Height="199" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
+            </Sprites>
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="10" Height="6" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
@@ -3781,7 +3787,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-11 07:30:57Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-11 09:30:57Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
@@ -3805,7 +3811,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>10</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-11 08:02:14Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-11 10:02:14Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\door_open.mp3</SourceFileName>
@@ -3817,7 +3823,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-11 08:17:46Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-11 10:17:46Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\door_locked.mp3</SourceFileName>
@@ -3829,7 +3835,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-11 08:19:20Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-11 10:19:20Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\pick_lock.mp3</SourceFileName>
@@ -3841,7 +3847,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-11 08:23:25Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-11 10:23:25Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
