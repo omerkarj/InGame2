@@ -1820,7 +1820,7 @@
             <Interactions>
               <Event Index="0" />
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cCrazyLarry_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -1888,6 +1888,129 @@ MICK: "And you're not gonna... Great."
 stop
 ]]></Script>
             <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>3</ID>
+            <Name>dDialogCrazyLarry</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+@1
+  cMick.FaceLocation(cCrazyLarry.x, cCrazyLarry.y);
+CRAZYLARRY: About 12 years... Gosh I have to say I kind of miss my family
+option-off-forever 1
+return
+
+@2
+
+  cMick.FaceLocation(cCrazyLarry.x, cCrazyLarry.y);
+CRAZYLARRY: wait, why would I?
+goto-dialog dDialogOption2    
+
+@3
+  cMick.FaceLocation(cCrazyLarry.x, cCrazyLarry.y);
+CRAZYLARRY: Man.. with that attitude you won't get far
+Mick: Look at me, you think I have something to lose?!
+CRAZYLARRY: Okay what you suggest then?
+goto-dialog dDialogOption3]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text xml:space="preserve">How long have you been here?</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Text xml:space="preserve">I think I can get us out of here, but you'll have to cooperate</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>3</ID>
+                <Text xml:space="preserve">I don't care how long you've been here, just help me out</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>4</ID>
+            <Name>dDialogOption2</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+  cMick.FaceLocation(cCrazyLarry.x, cCrazyLarry.y);
+CRAZYLARRY: mmm yeah.. but really I fill comfortable here, after all I've been here for over twelve years now
+goto-previous
+
+@2
+  cMick.FaceLocation(cCrazyLarry.x, cCrazyLarry.y);
+CRAZYLARRY: okay, I guess you are right
+Mick: great then! will you cooporate?
+CRAZYLARRY: yes of course, anything for my family..
+
+//  This is the right option to get out 
+//  need to add the option of Larry getting hit by the laser
+stop
+
+
+
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text xml:space="preserve">Because it's for the best of both of us</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Text xml:space="preserve">Didn't you say you miss your family?</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>5</ID>
+            <Name>dDialogOption3</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+
+@1
+  cMick.FaceLocation(cCrazyLarry.x, cCrazyLarry.y);
+CRAZYLARRY: which one of them?
+Mick: the one that's closer to us
+CRAZYLARRY: it's dangerous, I won't do it!
+goto-previous
+
+@2
+CRAZYLARRY: are you crazy? that will kill the both of us..
+  Wait(10);
+  // I wanted him to face opposite Mick when saying that
+   cMick.FaceLocation(cCrazyLarry.x, cCrazyLarry.y);
+CRAZYLARRY: *and they call me crazy...lol*
+return]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text xml:space="preserve">I think of trying to hit that button over there</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Text xml:space="preserve">Maybe we should throw something at the laser</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+            </DialogOptions>
           </Dialog>
         </Dialogs>
       </DialogFolder>
@@ -3787,7 +3910,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-11 09:30:57Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-11 13:30:57Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
@@ -3811,7 +3934,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>10</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-11 10:02:14Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-11 14:02:14Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\door_open.mp3</SourceFileName>
@@ -3823,7 +3946,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-11 10:17:46Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-11 14:17:46Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\door_locked.mp3</SourceFileName>
@@ -3835,7 +3958,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-11 10:19:20Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-11 14:19:20Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\pick_lock.mp3</SourceFileName>
@@ -3847,7 +3970,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-11 10:23:25Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-11 14:23:25Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
