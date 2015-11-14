@@ -71,7 +71,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName>Subject</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>14</AudioIndexer>
+      <AudioIndexer>16</AudioIndexer>
     </Settings>
     <LipSync>
       <Type>None</Type>
@@ -1422,6 +1422,26 @@
               </GUIButton>
             </Controls>
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>768</Height>
+              <Width>1024</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>False</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>32</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>32</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>9</ID>
+              <Name>gFader</Name>
+            </NormalGUI>
+            <Controls />
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -1995,6 +2015,7 @@ goto-dialog dDialogOption3
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 option-off 3
+return
 
 @1
 CRAZYLARRY: Over where?
@@ -2060,7 +2081,6 @@ run-script 1
 run-script 6
 CRAZYLARRY: I DON'T EVEN LIKE APPLES!..
 run-script 4
-option-off-forever 1
 return
 
 @2
@@ -2079,7 +2099,6 @@ stop
 CRAZYLARRY: UMM...
 CRAZYLARRY: How about no?
 option-on 2
-option-off-forever 3
 return
 ]]></Script>
             <DialogOptions>
@@ -4519,6 +4538,30 @@ See KeyboardMovement.txt for details.
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
                 <FileLastModifiedDate>2015-11-15 00:32:26Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\button_click.mp3</SourceFileName>
+                <ScriptName>aButton_click</ScriptName>
+                <Index>15</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2015-11-14 20:35:47Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\bang.mp3</SourceFileName>
+                <ScriptName>aBang</ScriptName>
+                <Index>16</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2015-11-14 20:21:57Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
