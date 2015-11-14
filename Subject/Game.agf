@@ -71,7 +71,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName>Subject</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>12</AudioIndexer>
+      <AudioIndexer>14</AudioIndexer>
     </Settings>
     <LipSync>
       <Type>None</Type>
@@ -4283,7 +4283,19 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-11 23:30:57Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-12 03:30:57Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\BG Music\tick_tock_jingle.mp3</SourceFileName>
+                <ScriptName>menuAudio</ScriptName>
+                <Index>13</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2015-11-14 17:39:47Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
@@ -4307,7 +4319,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>10</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-12 00:02:14Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-12 04:02:14Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\door_open.mp3</SourceFileName>
@@ -4319,7 +4331,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-12 00:17:46Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-12 04:17:46Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\door_locked.mp3</SourceFileName>
@@ -4331,7 +4343,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-12 00:19:20Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-12 04:19:20Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\pick_lock.mp3</SourceFileName>
@@ -4343,7 +4355,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-12 00:23:25Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-12 04:23:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\metal_door_locked.mp3</SourceFileName>
@@ -4355,7 +4367,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-14 18:10:43Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-14 22:10:43Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\metal_door_open.mp3</SourceFileName>
@@ -4367,7 +4379,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-14 18:06:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-14 22:06:08Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\running_sub.mp3</SourceFileName>
@@ -4379,7 +4391,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-14 18:26:38Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-14 22:26:38Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\death_sound.mp3</SourceFileName>
@@ -4391,7 +4403,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-14 18:28:24Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-14 22:28:24Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\mouse_trap_snap.mp3</SourceFileName>
@@ -4403,7 +4415,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-14 18:28:50Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-14 22:28:50Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\laser.mp3</SourceFileName>
@@ -4415,7 +4427,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-14 18:32:26Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-14 22:32:26Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
