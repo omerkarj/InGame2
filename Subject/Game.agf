@@ -653,7 +653,7 @@
               <BorderColor>1</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
+              <BackgroundImage>135</BackgroundImage>
               <ID>0</ID>
               <Name>gIconbar</Name>
             </NormalGUI>
@@ -668,12 +668,12 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2052</Image>
+                <Image>138</Image>
                 <Text />
-                <Height>57</Height>
+                <Height>55</Height>
                 <Locked>False</Locked>
-                <Width>66</Width>
-                <Left>955</Left>
+                <Width>121</Width>
+                <Left>905</Left>
                 <Top>3</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
@@ -689,12 +689,12 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2053</Image>
+                <Image>137</Image>
                 <Text />
                 <Height>55</Height>
                 <Locked>False</Locked>
-                <Width>66</Width>
-                <Left>883</Left>
+                <Width>131</Width>
+                <Left>777</Left>
                 <Top>3</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
@@ -707,7 +707,7 @@
                 <Height>54</Height>
                 <Locked>False</Locked>
                 <Width>483</Width>
-                <Left>77</Left>
+                <Left>105</Left>
                 <Top>3</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
@@ -723,12 +723,12 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2041</Image>
+                <Image>136</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>54</Height>
+                <Height>55</Height>
                 <Locked>False</Locked>
-                <Width>64</Width>
-                <Left>3</Left>
+                <Width>94</Width>
+                <Left>5</Left>
                 <Top>3</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
@@ -739,11 +739,11 @@
                 <TextColor>65535</TextColor>
                 <Font>0</Font>
                 <Text />
-                <Height>30</Height>
+                <Height>55</Height>
                 <Locked>True</Locked>
-                <Width>290</Width>
-                <Left>580</Left>
-                <Top>21</Top>
+                <Width>190</Width>
+                <Left>590</Left>
+                <Top>3</Top>
                 <ZOrder>4</ZOrder>
                 <ID>4</ID>
                 <Name>InvDescription</Name>
@@ -781,9 +781,9 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>90</Image>
                 <Text>RESUME</Text>
-                <Height>65</Height>
+                <Height>52</Height>
                 <Locked>False</Locked>
-                <Width>123</Width>
+                <Width>100</Width>
                 <Left>96</Left>
                 <Top>114</Top>
                 <ZOrder>0</ZOrder>
@@ -802,11 +802,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>90</Image>
                 <Text>ABOUT</Text>
-                <Height>65</Height>
+                <Height>52</Height>
                 <Locked>False</Locked>
-                <Width>123</Width>
+                <Width>100</Width>
                 <Left>96</Left>
-                <Top>192</Top>
+                <Top>339</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>btnAbout</Name>
@@ -823,11 +823,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>90</Image>
                 <Text xml:space="preserve">QUIT GAME</Text>
-                <Height>65</Height>
+                <Height>52</Height>
                 <Locked>False</Locked>
-                <Width>123</Width>
+                <Width>100</Width>
                 <Left>96</Left>
-                <Top>353</Top>
+                <Top>418</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>btnQuit</Name>
@@ -844,7 +844,7 @@
                 <Locked>False</Locked>
                 <Width>250</Width>
                 <Left>230</Left>
-                <Top>322</Top>
+                <Top>169</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>sldAudio</Name>
@@ -860,12 +860,12 @@
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
                 <Image>90</Image>
-                <Text>Default</Text>
-                <Height>65</Height>
+                <Text>DEFAULT</Text>
+                <Height>52</Height>
                 <Locked>False</Locked>
-                <Width>123</Width>
-                <Left>301</Left>
-                <Top>437</Top>
+                <Width>100</Width>
+                <Left>285</Left>
+                <Top>353</Top>
                 <ZOrder>4</ZOrder>
                 <ID>4</ID>
                 <Name>btnDefault</Name>
@@ -878,8 +878,8 @@
                 <Height>35</Height>
                 <Locked>False</Locked>
                 <Width>308</Width>
-                <Left>146</Left>
-                <Top>302</Top>
+                <Left>203</Left>
+                <Top>128</Top>
                 <ZOrder>5</ZOrder>
                 <ID>5</ID>
                 <Name>Label1</Name>
@@ -896,7 +896,7 @@
                 <Locked>False</Locked>
                 <Width>250</Width>
                 <Left>230</Left>
-                <Top>395</Top>
+                <Top>285</Top>
                 <ZOrder>6</ZOrder>
                 <ID>6</ID>
                 <Name>sldSpeed</Name>
@@ -909,8 +909,8 @@
                 <Height>35</Height>
                 <Locked>False</Locked>
                 <Width>99</Width>
-                <Left>230</Left>
-                <Top>370</Top>
+                <Left>314</Left>
+                <Top>240</Top>
                 <ZOrder>7</ZOrder>
                 <ID>7</ID>
                 <Name>Label2</Name>
@@ -927,14 +927,35 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>90</Image>
                 <Text>RESTART</Text>
-                <Height>65</Height>
+                <Height>52</Height>
                 <Locked>False</Locked>
-                <Width>123</Width>
+                <Width>100</Width>
                 <Left>96</Left>
-                <Top>270</Top>
+                <Top>188</Top>
                 <ZOrder>8</ZOrder>
                 <ID>8</ID>
                 <Name>btnRestart</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>btnHelp_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>90</Image>
+                <Text>HELP</Text>
+                <Height>52</Height>
+                <Locked>False</Locked>
+                <Width>100</Width>
+                <Left>96</Left>
+                <Top>266</Top>
+                <ZOrder>9</ZOrder>
+                <ID>9</ID>
+                <Name>btnHelp</Name>
               </GUIButton>
             </Controls>
           </GUIMain>
@@ -952,7 +973,7 @@
               <BorderColor>7</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>7</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
+              <BackgroundImage>140</BackgroundImage>
               <ID>2</ID>
               <Name>gRestartYN</Name>
             </NormalGUI>
@@ -964,9 +985,9 @@
                 <Text xml:space="preserve">Are you sure you want to restart?</Text>
                 <Height>81</Height>
                 <Locked>False</Locked>
-                <Width>311</Width>
-                <Left>10</Left>
-                <Top>12</Top>
+                <Width>200</Width>
+                <Left>51</Left>
+                <Top>30</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>Label4</Name>
@@ -981,13 +1002,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>141</Image>
                 <Text>Yes</Text>
-                <Height>66</Height>
+                <Height>30</Height>
                 <Locked>False</Locked>
-                <Width>116</Width>
-                <Left>16</Left>
-                <Top>108</Top>
+                <Width>60</Width>
+                <Left>63</Left>
+                <Top>104</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>btnRestartYes</Name>
@@ -1002,13 +1023,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>141</Image>
                 <Text>No</Text>
-                <Height>66</Height>
+                <Height>30</Height>
                 <Locked>False</Locked>
-                <Width>116</Width>
+                <Width>60</Width>
                 <Left>174</Left>
-                <Top>108</Top>
+                <Top>104</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>btnRestartNo</Name>
@@ -1310,7 +1331,7 @@
               <BorderColor>2</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
+              <BackgroundImage>139</BackgroundImage>
               <ID>7</ID>
               <Name>gInstructions</Name>
             </NormalGUI>
@@ -1325,17 +1346,213 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>90</Image>
                 <Text xml:space="preserve">Main Menu</Text>
-                <Height>62</Height>
+                <Height>52</Height>
                 <Locked>False</Locked>
-                <Width>131</Width>
-                <Left>440</Left>
-                <Top>395</Top>
+                <Width>100</Width>
+                <Left>449</Left>
+                <Top>356</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>btnExitInstructions</Name>
               </GUIButton>
+              <GUILabel>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Subject - Game Instructions</Text>
+                <Height>42</Height>
+                <Locked>False</Locked>
+                <Width>460</Width>
+                <Left>112</Left>
+                <Top>90</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>Label5</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Use the left mouse button to move Mick around, observe and interact with objects in the room.</Text>
+                <Height>66</Height>
+                <Locked>False</Locked>
+                <Width>461</Width>
+                <Left>112</Left>
+                <Top>179</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>Label6</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Help Mick find out why he was locked up in a mysterious compound, and escape!</Text>
+                <Height>56</Height>
+                <Locked>False</Locked>
+                <Width>464</Width>
+                <Left>112</Left>
+                <Top>120</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name>Label7</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Use the right mouse button to switch between mouse modes. The different mouse modes are:</Text>
+                <Height>63</Height>
+                <Locked>False</Locked>
+                <Width>459</Width>
+                <Left>112</Left>
+                <Top>235</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name>Label8</Name>
+              </GUILabel>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>85</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>54</Height>
+                <Locked>False</Locked>
+                <Width>44</Width>
+                <Left>112</Left>
+                <Top>305</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name>Button1</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>86</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>55</Height>
+                <Locked>False</Locked>
+                <Width>51</Width>
+                <Left>198</Left>
+                <Top>304</Top>
+                <ZOrder>6</ZOrder>
+                <ID>6</ID>
+                <Name>Button2</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>87</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>20</Height>
+                <Locked>False</Locked>
+                <Width>55</Width>
+                <Left>293</Left>
+                <Top>322</Top>
+                <ZOrder>7</ZOrder>
+                <ID>7</ID>
+                <Name>Button3</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>88</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>55</Height>
+                <Locked>False</Locked>
+                <Width>47</Width>
+                <Left>389</Left>
+                <Top>304</Top>
+                <ZOrder>8</ZOrder>
+                <ID>8</ID>
+                <Name>Button4</Name>
+              </GUIButton>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Walk To</Text>
+                <Height>49</Height>
+                <Locked>False</Locked>
+                <Width>60</Width>
+                <Left>107</Left>
+                <Top>356</Top>
+                <ZOrder>9</ZOrder>
+                <ID>9</ID>
+                <Name>Label9</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Interact With</Text>
+                <Height>40</Height>
+                <Locked>False</Locked>
+                <Width>63</Width>
+                <Left>187</Left>
+                <Top>356</Top>
+                <ZOrder>10</ZOrder>
+                <ID>10</ID>
+                <Name>Label10</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Look At</Text>
+                <Height>24</Height>
+                <Locked>False</Locked>
+                <Width>66</Width>
+                <Left>286</Left>
+                <Top>356</Top>
+                <ZOrder>11</ZOrder>
+                <ID>11</ID>
+                <Name>Label11</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Talk To</Text>
+                <Height>24</Height>
+                <Locked>False</Locked>
+                <Width>58</Width>
+                <Left>382</Left>
+                <Top>356</Top>
+                <ZOrder>12</ZOrder>
+                <ID>12</ID>
+                <Name>Label12</Name>
+              </GUILabel>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -1419,6 +1636,83 @@
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>btnExitDrawer</Name>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>200</Height>
+              <Width>334</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visibility>PopupModal</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>2</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>140</BackgroundImage>
+              <ID>9</ID>
+              <Name>gQuitYN</Name>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Are you sure you want to quit?</Text>
+                <Height>52</Height>
+                <Locked>False</Locked>
+                <Width>187</Width>
+                <Left>70</Left>
+                <Top>44</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>Label13</Name>
+              </GUILabel>
+              <GUIButton>
+                <OnClick>btnQuitYes_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>141</Image>
+                <Text>Yes</Text>
+                <Height>30</Height>
+                <Locked>False</Locked>
+                <Width>60</Width>
+                <Left>70</Left>
+                <Top>108</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>btnQuitYes</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>btnQuitNo_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>141</Image>
+                <Text>No</Text>
+                <Height>30</Height>
+                <Locked>False</Locked>
+                <Width>60</Width>
+                <Left>174</Left>
+                <Top>108</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>btnQuitNo</Name>
               </GUIButton>
             </Controls>
           </GUIMain>
@@ -1530,7 +1824,7 @@
             <Name>iMagGlass</Name>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">iMagGlass_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
@@ -2018,8 +2312,8 @@ return]]></Script>
     <Cursors>
       <MouseCursor>
         <ID>0</ID>
-        <HotspotX>0</HotspotX>
-        <HotspotY>0</HotspotY>
+        <HotspotX>19</HotspotX>
+        <HotspotY>24</HotspotY>
         <StandardMode>True</StandardMode>
         <Image>85</Image>
         <View>0</View>
@@ -2030,8 +2324,8 @@ return]]></Script>
       </MouseCursor>
       <MouseCursor>
         <ID>1</ID>
-        <HotspotX>0</HotspotX>
-        <HotspotY>0</HotspotY>
+        <HotspotX>26</HotspotX>
+        <HotspotY>10</HotspotY>
         <StandardMode>True</StandardMode>
         <Image>87</Image>
         <View>0</View>
@@ -2042,8 +2336,8 @@ return]]></Script>
       </MouseCursor>
       <MouseCursor>
         <ID>2</ID>
-        <HotspotX>0</HotspotX>
-        <HotspotY>0</HotspotY>
+        <HotspotX>25</HotspotX>
+        <HotspotY>25</HotspotY>
         <StandardMode>True</StandardMode>
         <Image>86</Image>
         <View>0</View>
@@ -2054,8 +2348,8 @@ return]]></Script>
       </MouseCursor>
       <MouseCursor>
         <ID>3</ID>
-        <HotspotX>0</HotspotX>
-        <HotspotY>0</HotspotY>
+        <HotspotX>20</HotspotX>
+        <HotspotY>31</HotspotY>
         <StandardMode>True</StandardMode>
         <Image>88</Image>
         <View>0</View>
@@ -2140,11 +2434,11 @@ return]]></Script>
     <Fonts>
       <Font>
         <ID>0</ID>
-        <PointSize>0</PointSize>
+        <PointSize>13</PointSize>
         <Name>Normal</Name>
         <OutlineFont>0</OutlineFont>
         <OutlineStyle>None</OutlineStyle>
-        <SourceFilename />
+        <SourceFilename xml:space="preserve">C:\Yoav\School\InGame\Subject\Subject\Assets\Fonts\Chocolate Covered Raindrops BOLD.ttf</SourceFilename>
       </Font>
       <Font>
         <ID>1</ID>
@@ -2571,6 +2865,26 @@ return]]></Script>
                   <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Objects\Room 2\ifuel_container_empty.png</FileName>
                 </Source>
               </Sprite>
+              <Sprite Slot="142" Width="106" Height="101" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Objects\Room 2\fuelcontainer1.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="143" Width="106" Height="101" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Objects\Room 2\fuelcontainer2.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="144" Width="106" Height="101" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Objects\Room 2\fuelcontainer3.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="145" Width="106" Height="101" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Objects\Room 2\fuelcontainer4.png</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="Room1 Misc">
@@ -2987,15 +3301,11 @@ return]]></Script>
           <SpriteFolder Name="Misc stuff">
             <SubFolders />
             <Sprites>
-              <Sprite Slot="85" Width="43" Height="55" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
-              <Sprite Slot="86" Width="53" Height="55" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
-                <Source>
-                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Misc\interactwith.png</FileName>
-                </Source>
-              </Sprite>
+              <Sprite Slot="85" Width="44" Height="54" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
+              <Sprite Slot="86" Width="51" Height="55" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
               <Sprite Slot="87" Width="55" Height="20" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
                 <Source>
-                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Misc\lookat.png</FileName>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Misc\lookat2.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="88" Width="47" Height="55" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
@@ -3009,6 +3319,41 @@ return]]></Script>
                 </Source>
               </Sprite>
               <Sprite Slot="90" Width="123" Height="65" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
+              <Sprite Slot="135" Width="1024" Height="105" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Misc\topPanel\bg.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="136" Width="94" Height="55" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Misc\topPanel\observe1.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="137" Width="127" Height="55" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Misc\topPanel\help1.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="138" Width="118" Height="55" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Misc\topPanel\exit1.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="139" Width="700" Height="500" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Misc\helpmenu.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="140" Width="334" Height="200" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Misc\quitmenu.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="141" Width="80" Height="41" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Misc\button.png</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="Room4 Misc">
@@ -3075,6 +3420,86 @@ return]]></Script>
               <Sprite Slot="92" Width="80" Height="448" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
               <Sprite Slot="93" Width="80" Height="450" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
               <Sprite Slot="94" Width="70" Height="450" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="Room3Flood">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="120" Width="1024" Height="768" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Animations\flood\flood1.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="121" Width="1024" Height="768" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Animations\flood\flood2.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="122" Width="1024" Height="768" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Animations\flood\flood3.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="123" Width="1024" Height="768" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Animations\flood\flood4.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="124" Width="1024" Height="768" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Animations\flood\flood5.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="125" Width="1024" Height="768" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Animations\flood\flood6.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="126" Width="1024" Height="768" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Animations\flood\flood7.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="127" Width="1024" Height="768" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Animations\flood\flood8.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="128" Width="1024" Height="768" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Animations\flood\flood8_1.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="129" Width="1024" Height="768" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Animations\flood\flood9.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="130" Width="1024" Height="768" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Animations\flood\flood10.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="131" Width="1024" Height="768" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Animations\flood\flood11.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="132" Width="1024" Height="768" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Animations\flood\flood12.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="133" Width="1024" Height="768" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Animations\flood\flood13.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="134" Width="1024" Height="768" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Yoav\School\InGame\Subject\Subject\Assets\Animations\flood\flood14.png</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
         </SubFolders>
@@ -4202,6 +4627,123 @@ return]]></Script>
               </Loop>
             </Loops>
           </View>
+          <View>
+            <ID>9</ID>
+            <Name>FLOOD</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>120</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>121</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>122</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>123</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>124</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>125</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>126</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>7</ID>
+                    <Image>127</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>8</ID>
+                    <Image>128</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>9</ID>
+                    <Image>129</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>10</ID>
+                    <Image>130</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>11</ID>
+                    <Image>131</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>12</ID>
+                    <Image>132</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>13</ID>
+                    <Image>133</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>14</ID>
+                    <Image>134</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
         </Views>
       </ViewFolder>
     </Views>
@@ -4283,7 +4825,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-11 21:30:57Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-11 23:30:57Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
@@ -4307,7 +4849,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>10</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-11 22:02:14Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-12 00:02:14Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\door_open.mp3</SourceFileName>
@@ -4319,7 +4861,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-11 22:17:46Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-12 00:17:46Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\door_locked.mp3</SourceFileName>
@@ -4331,7 +4873,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-11 22:19:20Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-12 00:19:20Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\pick_lock.mp3</SourceFileName>
@@ -4343,7 +4885,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-11 22:23:25Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-12 00:23:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\metal_door_locked.mp3</SourceFileName>
@@ -4355,7 +4897,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-14 16:10:43Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-14 18:10:43Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\metal_door_open.mp3</SourceFileName>
@@ -4367,7 +4909,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-14 16:06:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-14 18:06:08Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\running_sub.mp3</SourceFileName>
@@ -4379,7 +4921,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-14 16:26:38Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-14 18:26:38Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\death_sound.mp3</SourceFileName>
@@ -4391,7 +4933,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-14 16:28:24Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-14 18:28:24Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\mouse_trap_snap.mp3</SourceFileName>
@@ -4403,7 +4945,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-14 16:28:50Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-14 18:28:50Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\Sound FX\laser.mp3</SourceFileName>
@@ -4415,7 +4957,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-14 16:32:26Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-14 18:32:26Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
