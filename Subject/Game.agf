@@ -3612,6 +3612,31 @@ return
               </Sprite>
             </Sprites>
           </SpriteFolder>
+          <SpriteFolder Name="endScene">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="146" Width="1024" Height="768" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Projects\games\Subject\Subject\Assets\BG Images\room5_1.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="147" Width="1024" Height="768" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Projects\games\Subject\Subject\Assets\BG Images\room5_2.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="148" Width="1024" Height="768" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Projects\games\Subject\Subject\Assets\BG Images\room5_3.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="149" Width="1024" Height="768" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Projects\games\Subject\Subject\Assets\BG Images\room5_4.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="10" Height="6" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
@@ -4935,7 +4960,7 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-11-12 01:30:57Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-11-14 21:50:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">D:\Projects\games\Subject\Subject\Assets\BG Music\tick_tock_jingle.mp3</SourceFileName>
